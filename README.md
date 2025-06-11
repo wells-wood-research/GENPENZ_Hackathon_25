@@ -1,16 +1,13 @@
 ***
 
 <div align="center">
-  <img src="assets/images/wood_lab_logo.png" alt="Wells Wood Research Group Logo" width="200" />
+  <img src=".assets/images/wood_lab_logo.png" alt="Wells Wood Research Group Logo" width="200" />
   <h1>Flavo-Mandelate Binder Design Hackathon</h1>
-  <p>
-    <img src="https://img.shields.io/badge/Hackathon-ACTIVE-brightgreen" alt="Status: Active" />
-    <img src="https://img.shields.io/badge/Date-DD/MM/YYYY-blue" alt="Date" />
-    <img src="https://img.shields.io/badge/Contact-Eugene-9cf" alt="Contact" />
-  </p>
 </div>
 
 Hello Everyone, welcome to the GitHub repository for the  **GENPENZ Hackathon 2025**! 
+
+Here you will find all sorts of information on the hackathon, including project descriptions, resources, and instructions for getting started.
 
 ---
 
@@ -48,7 +45,7 @@ Each project leverages a different state-of-the-art methodology to approach our 
 | :------ | :--------------------------| :--------------------------- | :---------------------------------------------------------- |
 | **A**   | `RASSCoL` | `Deltaprot` Scaffolds                      | Introduce catalytic activity into Deltaprot scaffolds.    |
 | **B**   | `Ligand Docking` + `coTIMED` `ligandMPNN`|  Natural Flavoproteins  from the Flavin "79" dataset | Ensure substrate binding in potentially photoactive flavoproteins.|
-| **C**   | `Theozyme Design` + `RF-Diffusion`                     | *De-Novo" Proteins| Build a novel enzyme from the ground up, starting with chemistry. |
+| **C**   | `Theozyme Design` + `RF-Diffusion`                     | *De-Novo* Proteins| Build a novel enzyme from the ground up, starting with chemistry. |
 
 
 ---
@@ -66,7 +63,7 @@ This project aims to expand the capabilities of `RASSCoL` (a rapid method for sa
 -   **Key Concept:** Deltaprots are *Compact α-helical bundles that can adopt just 30 deltahedral geometries in which helix axes lie along the edges of idealized polyhedra.
 
 <p align="center">
-  <img src="assets/images/deltaprot_example.png" alt="Image of a Deltaprot structure" width="250" />
+  <img src=".assets/images/deltaprot_example.png" alt="Image of a Deltaprot structure" width="250" />
   <br>
   <em>A visualization of a Deltaprot scaffold, highlighting its geometric α-helical arrangement.</em>
 </p>
@@ -86,7 +83,7 @@ This project starts with a unique dataset of 79 natural flavoproteins, curated b
 -   **Key Concept:** Introduce a mandelate binding site near the native flavin cofactor to create a novel enzyme from a natural, photoactive scaffold.
 
 <p align="center">
-  <img src="assets/images/1VHN_active_site.png" alt="Active site of 1VHN" width="450" />
+  <img src=".assets/images/1VHN_active_site.png" alt="Active site of 1VHN" width="450" />
   <br>
   <em>The active site of protein 1VHN, a flavoprotein from our dataset, showing the bound FMN cofactor.</em>
 </p>
@@ -105,7 +102,7 @@ This project takes a "bottom-up" approach. We begin with a "theozyme"—a precis
 -   **Key Concept:** A theozyme is the minimal catalytic unit of an enzyme. By building a protein around it, we can design for function from first principles.
 
 <p align="center">
-  <img src="assets/images/theozyme_scaffolding.png" alt="Illustration of theozyme-based design" width="800" />
+  <img src=".assets/images/theozyme_scaffolding.png" alt="Illustration of theozyme-based design" width="800" />
   <br>
   <em>An illustration from the RFDiffusion paper showing a designed protein scaffold built around a functional motif.</em>
 </p>
@@ -117,17 +114,20 @@ This project takes a "bottom-up" approach. We begin with a "theozyme"—a precis
 ## 📚 Resources & Links
 
 -   **Papers:**
-    -   [Murzin & Finkelstein (1988) - Deltahedral Geometries](link-to-paper)
-    -   [RFDiffusion Paper](link-to-paper)
-    -   [LigandMPNN Paper](link-to-paper)
+    -   [Murzin & Finkelstein (1988) - Deltahedral Geometries](https://www.sciencedirect.com/science/article/pii/002228368890366X)
+    -   [RFDiffusion Paper](https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1.full.pdf)
+    -   [LigandMPNN Paper](https://www.nature.com/articles/s41592-025-02626-1)
+    -   [GNINA paper](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-025-00973-x)
+    -   [ORCA Manual](https://www.faccts.de/docs/orca/6.0/manual/)
 -   **Tools:**
+    -   [GNINA GitHub](https://github.com/gnina/gnina)
     -   [RASSCoL Documentation](link-to-tool)
-    -   [RFDiffusion GitHub](link-to-tool)
-    -   [ORCA QM Software](link-to-tool)
+    -   [RFDiffusion GitHub](https://github.com/baker-laboratory/rf_diffusion_all_atom)
+    -   [LigandMPNN GitHub](https://github.com/dauparas/LigandMPNN)
 
 ## ❓ Questions?
 
-If you have any questions, please reach out to **Eugene**!
+If you have any questions, please reach out to **Eugene** at eshrimpt@ed.ac.uk!
 
 <hr>
 
