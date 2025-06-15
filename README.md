@@ -69,6 +69,9 @@ This project aims to expand the capabilities of `RASSCoL` (a rapid method for sa
   <em>A visualization of a Deltaprot scaffold, highlighting its geometric α-helical arrangement.</em>
 </p>
 
+
+For a more detailed discussion of this project, please see the [Project A README](Project_A_RASSCol_DeltaProts/Project_A_RASSCol_DeltaProts.md).
+
 ---
 
 ### Project B: AI-Enhanced Docking into Natural Flavoproteins

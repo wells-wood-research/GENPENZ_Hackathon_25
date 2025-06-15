@@ -13,7 +13,7 @@ Here is an outline of the proposed workflow, feel free to get creative and come 
 <p align="center">
   <img src="../.assets/images/Project_B_Workflow.png" alt="Project_B_Workflow" width="800" />
   <br>
-  <em>The active site of protein 1VHN, a flavoprotein from our dataset, showing the bound FMN cofactor.</em>
+  <em>A workflow for redesigning the active site of a naturally photoactive flavoprotein to bind a new ligand</em>
 </p>
 
 1. **SELECT A SCAFFOLD:** From our "Flavin 79" Dataset, Harry and Junfeng have identified several (~7) proteins that have a higher fluorescence than cvFAP itself. Each team member should select one of these promising candidates to work on
