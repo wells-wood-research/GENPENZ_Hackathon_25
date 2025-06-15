@@ -44,11 +44,12 @@ Each project leverages a different state-of-the-art methodology to approach our 
 | Project | Computational Methods |  Starting Scaffolds  | Key Concept                                                 |
 | :------ | :--------------------------| :--------------------------- | :---------------------------------------------------------- |
 | **A**   | `RASSCoL` | `Deltaprot` Scaffolds                      | Introduce catalytic activity into Deltaprot scaffolds.    |
-| **B**   | `Ligand Docking` + `coTIMED` `ligandMPNN`|  Natural Flavoproteins  from the Flavin "79" dataset | Ensure substrate binding in potentially photoactive flavoproteins.|
-| **C**   | `Theozyme Design` + `RF-Diffusion`                     | *De-Novo* Proteins| Build a novel enzyme from the ground up, starting with chemistry. |
+| **B**   | `Ligand Docking` + `coTIMED` `ligandMPNN`|  `Natural Flavoproteins`  from the Flavin "79" dataset | Ensure substrate binding in potentially photoactive flavoproteins.|
+| **C**   | `Theozyme Design` + `RF-Diffusion`                     | `*De-Novo*` Proteins| Build a novel enzyme from the ground up, starting with chemistry. |
 
 
 ---
+
 
 ### Project A: RASSCoL on Deltaprot Scaffolds
 
@@ -60,7 +61,7 @@ This project aims to expand the capabilities of `RASSCoL` (a rapid method for sa
 -   **Target Ligands:** Lumiflavin (LMF) + Mandelate
 -   **Scaffolds:** 30 parametrically designed Deltaprots
 -   **Background:** Builds on Kasia's successful work designing LMF-binding coiled-coils.
--   **Key Concept:** Deltaprots are *Compact α-helical bundles that can adopt just 30 deltahedral geometries in which helix axes lie along the edges of idealized polyhedra.
+-   **Key Concept:** Deltaprots are *Compact α-helical bundles that can adopt just 30 deltahedral geometries in which helix axes lie along the edges of idealized polyhedra.*
 
 <p align="center">
   <img src=".assets/images/deltaprot_example.png" alt="Image of a Deltaprot structure" width="250" />
@@ -74,7 +75,7 @@ This project aims to expand the capabilities of `RASSCoL` (a rapid method for sa
 
 **Objective: Introduce a new catalytic activity into existing, highly photoactive flavoproteins.**
 
-This project starts with a unique dataset of 79 natural flavoproteins, curated by Eugene using ML methods. Experimental work by Harry and Junfeng has shown that several of these proteins are highly fluorescent—a great proxy for photoactivity! The missing piece is substrate binding. Your mission is to engineer it.
+This project starts with a unique dataset of 79 natural flavoproteins, curated by Eugene using ML methods. Experimental work by Harry and Junfeng has shown that several of these proteins are highly fluorescent - a metric we are using as a proxy for photoactivity. The missing piece is substrate binding. Your mission is to engineer it.
 
 -   **Core Methods:** Ligand Docking + AI-powered Sequence Design
 -   **Target Ligand:** Mandelate
@@ -87,6 +88,9 @@ This project starts with a unique dataset of 79 natural flavoproteins, curated b
   <br>
   <em>The active site of protein 1VHN, a flavoprotein from our dataset, showing the bound FMN cofactor.</em>
 </p>
+
+
+For a more detailed discussion of this project, please see the [Project B README](./Project_B_Active_Site_Redesign/Project_B_Active_Site_Redesign.md).
 
 ---
 
