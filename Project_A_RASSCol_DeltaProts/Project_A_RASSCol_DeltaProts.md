@@ -5,7 +5,7 @@
 -   **Objective:** Repurpose inert Deltaprots for photocatalytic activity.
 -   **Target Ligand:** Mandelate & Lumiflavin (LMF)
 -   **Scaffolds:** 30 parametrically designed Deltaprots
-
+-   **Tools:** `RASSCoLL` 
 
 ## Proposed Methodology
 
