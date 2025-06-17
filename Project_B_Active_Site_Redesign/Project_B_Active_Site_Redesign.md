@@ -35,3 +35,15 @@ We could mutate a few of the larger active site residues to something smaller (A
 
 - **Getting a Decent Binding Pose:** This is an ongoing discussion in our lab: If we leave Wild-Type residues in the active site prior to docking, we bias the docking poses. This in turn will introduce a bias in the sequences produced by the AI tools. Conversely, by mutating the active site residues to smaller residues we can remove *this* bias, but then introduce a new one. 
 
+
+## HOW TO RUN GNINA
+
+GNINA docking software can be found in at `/opt/gnina`
+
+To run GNINA:
+```
+/opt/gnina --config /path/to/my/config.txt --no_gpu
+```
+> NOTE: We currently don't have the CUDA environment set up for GNINA, so the `--no_gpu` flag is necessary.
+
+For an example config file see [this one](../.assets/images/dummy_gnina_config.txt)

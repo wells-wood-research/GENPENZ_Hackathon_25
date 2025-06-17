@@ -1,0 +1,15 @@
+receptor = TPADO_ChainD.pdb
+autobox_ligand = TPA_TARGET.pdb
+
+ligand = TPA.pdbqt
+
+exhaustiveness = 64
+num_modes = 10
+
+seed = 42
+
+cpu = 16
+pose_sort_order = Energy
+
+out = TPA_poses.pdb
+log = TPA.log
