@@ -35,3 +35,34 @@ We could mutate a few of the larger active site residues to something smaller (A
 
 - **Getting a Decent Binding Pose:** This is an ongoing discussion in our lab: If we leave Wild-Type residues in the active site prior to docking, we bias the docking poses. This in turn will introduce a bias in the sequences produced by the AI tools. Conversely, by mutating the active site residues to smaller residues we can remove *this* bias, but then introduce a new one. 
 
+
+## HOW TO RUN GNINA
+
+GNINA docking software can be found in at `/opt/gnina`
+
+To run GNINA:
+```
+/opt/gnina --config /path/to/my/config.txt --no_gpu
+```
+> NOTE: We currently don't have the CUDA environment set up for GNINA, so the `--no_gpu` flag is necessary.
+
+For an example config file see [this one](../.assets/images/dummy_gnina_config.txt)
+
+
+## HOW TO RUN COTIMED
+
+```bash
+make-frame-dataset ~/coTIMED_TEST/ -e .pdb -p 6 -o ~/coTIMED_TEST/ -ae BackCBSideOrg --keep_side_chain_portion 0.7 -g True -n test_datset --cfile ~/test_csv.csv 
+```
+
+then 
+
+```bash
+python /opt/timed-design/predict.py --path_to_dataset ~/coTIMED_TEST/test_datset.hdf5 --path_to_model /opt/timed-design/models/CoTIMED.h5 --path_to_output ~/coTIMED_TEST/
+```
+
+then
+
+```bash
+python /opt/timed-design/sample.py --path_to_pred_matrix ~/coTIMED_TEST/CoTIMED.csv --path_to_datasetmap ~/coTIMED_TEST/CoTIMED.txt --seed 42 --workers 10 --sample_n 10 --temperature 0.5
+```
